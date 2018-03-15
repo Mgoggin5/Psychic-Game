@@ -39,6 +39,9 @@ var computerChoices = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l
 
                 
             }
+            if (guessesRemaining == 0) {
+                alert("Game Over!")
+            }
             
 
              function gameOver(isGameWon) {
@@ -46,9 +49,12 @@ var computerChoices = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l
 
             if (isGameWon); {
                 alert("You Win!")
+
             }
-             };
+        };
+
+    }
             
 
 
-        }
+        
